@@ -25,14 +25,9 @@ class Vector3D:
         return __class__(self.x - other.x, self.y - other.y, self.z - other.z)
 
     def __mul__(self, other):
-        try:
-            k = float(other)
-        except (TypeError, ValueError):
-            raise NotImplemented
-        return __class__(self.x * k, self.y * k, self.z * k)
+        return __class__(self.x * other, self.y * other, self.z * other)
     
-    def __rmul__(self, other):
-        return self.__mul__(other)
+    __rmul__ = __mul__
 
     def __truediv__(self, other):
         k = float(other)
