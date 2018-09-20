@@ -1,4 +1,4 @@
-# vector-python
+# vector3d-python
 3次元ベクトル
 
 ```python
