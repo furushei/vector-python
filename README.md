@@ -1,5 +1,5 @@
 # Vector3D
-If you want to perform vector or matrix operation with Python, [numpy](http://www.numpy.org/) is a popular solution. However, in situations where numpy can not be used, this module will provide one of the alternative options.
+If you want to perform vector or matrix operation with Python, [numpy](http://www.numpy.org/) is a popular solution. However, in situations where numpy can not be used, this module will offer one of the alternative options.
 
 ## Simple Usage
 ```python
