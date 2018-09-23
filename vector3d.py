@@ -64,8 +64,7 @@ class Vector3D:
     def __len__(self):
         return 3
 
-    def __hash__(self):
-        return hash(self.as_tuple())
+    __hash__ = None
 
     def __bool__(self):
         return self.as_tuple() != (0, 0, 0)
